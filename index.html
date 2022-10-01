@@ -8,19 +8,25 @@
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="containter">
-        <div>
-            <label for="input-number">Guess a number between 1 and 100</label>
+    <header>
+        <h1> Guess My Number !</h1>
+        <p class="between">(Between 1 and 100)</p>
+        <button class="btn again">Again!</button>
+        <div class="number">
+            ?
         </div>
-        <div>
-            <input type="number" class="input-number"></input>
-            <button class="btn">Guess!</button>
-        </div>
-        <div>
-            <p>You Guessed The Number! Number of guesses: </p>
-        </div>
-    </div>
-   
-   <script src="script.js"></script>
+    </header>
+    <main>
+        <section class="left">
+            <input type="number" class="guess">
+            <button class="btn check">Check!</button>
+        </section>
+        <section class="right">
+            <p class="message">Start Guessing...</p>
+            <p class="label-score">Score: <span class="score">100</span> </p>
+            <p class="label-highscore">Highscore: <span class="highscore">100</span> </p>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
