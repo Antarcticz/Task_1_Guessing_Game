@@ -90,10 +90,17 @@ h1{
 .btn:hover{
     background: #ccc;
 }
+.again{
+    margin-left: 2rem;
+}
 .message{
+    margin-top: 2rem;
     margin-bottom: 8rem;
     height: 3rem;
 }
-.label-score{
+.label-triesLeft{
+    margin-bottom: 2rem;
+}
+.label-tries{
     margin-bottom: 2rem;
 }
